@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    background-color: #235651;
+}
+.tabs a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    padding: 15px 20px;
+    position: relative;
+}
+.tabs a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.tabs a:hover:after {
+    width: 100%;
+    left: 0;
+}
+.brand-logo-img {
+    padding-top: 1em;
+    width: 3em;
+}
+.nav-wrapper {
+    margin-left: 1em;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+#main-content {
+    margin-top: 4em;
+}
+#home {
+    background-image: url("Resources/edward-denton-5547494e-6647-4dd0-ac8c-0de4e665c022-edred-bunch-offlowerssurroundedbyadecorativefiligreefloralborderpaintedbyalphonsemucha8kjamesjeanhighresol.jpg");
+    height: 50vh;
+}
+#home h1 {
+    margin-bottom: 0;
+}
+#home p {
+    margin-left: 5%;
+    color: white;
+}
+#visit {
+    background-color: #081a19;
+    padding-bottom: 5vh;
+}
+#right-now {
+    background-image: url("Resources/whimmy-battle.jpg");
+}
+#right-now h1 {
+    margin-bottom: 0;
+}
+#right-now p {
+    margin-left: 5%;
+    color: white;
+}
+#right-now section {
+    background-color: #081a19;
+    padding-bottom: 5vh;
+}
+#right-now section p {
+    margin-bottom: 0;
+    color: white;
+    margin-left: 5%;
+    text-align: center;
+}
+#right-now section img {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+#reserve-btn {
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+h1 {
+    margin-left: 5%;
+    margin-top: 0;
+    padding-top: 5%;
+    color: white;
+}
+h2 {
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+}
+.card-image {
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+}
+.card-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.card-content {
+    word-wrap: break-word;
+}
+.row-gallery {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-bottom: 0;
+}
+.page-footer {
+    background-color: #235651;
+}
+.page-footer .footer-copyright {
+    background-color: rgba(8, 26, 25, 0.25);
+}
